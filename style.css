@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
+.clockcontainer{
+    text-align: center;
+    align-items: center;
+    vertical-align: middle !important;
+    background-color: black;
+    height: 344px;
+    width: 644px;
+    border: 12px rgb(0, 98, 255) solid;
+    margin-top: 175px;
+    border-radius: 20px;
+    transition: all .8s;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-size: 60px;
+    line-height: 100px !important;
+    float: none !important;
+}
+
+.container{
+    float: none !important;
+}
+
+.btn-danger{
+    font-size: 20px !important;
+}
+
+body{
+    background-color: rgb(12, 12, 12) !important;
+}
+
+.clockcontainer:hover{
+    box-shadow: 10px 10px 60px 30px  rgb(98, 74, 255);
+    border-color: cyan;
+    color: red;
+}
